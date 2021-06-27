@@ -9,35 +9,96 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <title>Portal do Game - LIP</title>
 
 </head>
 
 <body>
+    <header>
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="documentacao.html">Documentacao</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
     <main>
-        <p class="logo-1">
-            Hot Finger Genius
-        </p>
-        <div class="button1">
-            <a href="tutorial.html" href="https://www.youtube.com/watch?v=zPDeiv1qw2k&ab_channel=ProjetoScratch" target="_blank" class="button">Veja nosso tutorial</a>
+        <div class="container">
+            <div class="row">
+                <p class="logo-1 titulo mt-5">Hot Finger Genius</p>
+                <p class="texto-2 text-center mt-5">
+                    Um jogo para todas as idades com o objetivo de divulgar o trabalho de algumas das mentes mais
+                    brilhantes.
+                </p>
+                <p class="texto-2 text-center">
+                    Chame seus filhos, amigos e familiares e prepare-se para aprender mais sobre a ciência e a
+                    computação!
+                </p>
+            </div>
         </div>
-        <div class="iframe"><iframe width="750" height="600" src="https://www.youtube.com/embed/zPDeiv1qw2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <h4>OU</h4>
-        <div class="button2">
-            <a href="https://scratch.mit.edu/projects/537217164" target="_blank" class="button">Jogue agora</a>
-        </div>
-        <div class="iframe"><iframe src="https://scratch.mit.edu/projects/537217164/embed" allowtransparency="true"
-                width="750" height="600" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        <div class="row">
+            <div class="col-6">
+                <div class="button1 mt-3">
+                    <a href="https://www.youtube.com/watch?v=zPDeiv1qw2k&ab_channel=ProjetoScratch" target="_blank"
+                        class="button">Veja nosso tutorial</a>
+                </div>
+                <div class="iframe"><iframe width="750" height="600" src="https://www.youtube.com/embed/zPDeiv1qw2k"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="button2 mt-3">
+                    <a href="https://scratch.mit.edu/projects/537217164" target="_blank" class="button">Jogue agora</a>
+                </div>
+                <div class="iframe"><iframe src="https://scratch.mit.edu/projects/537217164/embed"
+                        allowtransparency="true" width="750" height="600" frameborder="0" scrolling="no"
+                        allowfullscreen></iframe>
+                </div>
+                <p class="texto-2 text-center">
+                    <a class="texto-2" href="https://scratch.mit.edu/projects/537217164/">Link para a plataforma
+                        Scratch</a>
+                    <br>
+                    <a class="texto-2" href="https://scratch.mit.edu/studios/29805511/projects/">Link para o studio do
+                        Scratch</a>
+                    <p class="texto-2">
+                        Crie jogos de maneira divertida e intuitiva na plataforma scratch você também!
+                    </p>
+                </p>
+            </div>
         </div>
     </main>
-    <footer class="text-center text-white fixed-bottom">
-        <div class="text-center p-3" style="background-color: #47525e;">
-            <p class="footertext" style="color: white;">© 2021 Copyright: Hot Finger Genius - <b>ICEI PUC MINAS</b>
+    <footer class="text-center text-white">
+        <div class="text-center p-3">
+            <p class="footertext titulo"
+                style="color: white; font-family: 'Poppins', sans-serif; background-color: black;">© 2021 Copyright: Hot
+                Finger Genius - <b style="font-family:'Poppins', sans-serif; background-color: black;">ICEI PUC
+                    MINAS</b>
             </p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

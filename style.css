@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Poppins', sans-serif;
   background-color: #a6afae;
+  text-decoration: none;
 }
 
 h1 {
@@ -11,10 +13,6 @@ h1 {
   font-weight: 800;
   color: #212529;
   text-shadow: 1px 1px #fff;
-}
-
-#particles-js {
-  background-color: black;
 }
 
 
@@ -37,6 +35,7 @@ h4 {
   font-size: 2vh;
   border-radius: 15px;
   transition-duration: 0.4s;
+  font-family: 'Cinzel Decorative', cursive;
   text-decoration: none;
 }
 
@@ -65,8 +64,8 @@ div.iframe {
 }
 
 
-p {
-  font-size: 65px;
+p.titulo{
+  font-size: 32px;
   text-transform: uppercase;
   font-family: 'Cinzel Decorative', cursive;
   font-weight: 800;
@@ -76,6 +75,12 @@ p {
 }
 p.footertext{
   font-size: 14px;
+}
+
+.texto-2{
+  font-size: 22px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 .logo-1 {
@@ -102,3 +107,19 @@ p.footertext{
       0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
   }
 }
+
+.container-fluid, nav, ul, span, .navbar-collapse{
+  background-color: black;
+}
+
+.container-fluid a{
+  color: white !important;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  background-color: black;
+}
+
+a:hover{
+  color: lightgray !important;
+}
+
